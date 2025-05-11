@@ -17,7 +17,16 @@ flutter pub get
 3. Run the app:
 flutter run
 ## Tech Stack
-- Flutter SDK: [Version]
-- State Management: [Provider/Riverpod/etc.]
-- HTTP Client: [http/dio]
-- Persistence: [shared_preferences/hive]
+- Flutter SDK: 3.29.3
+- State Management: Provider
+- HTTP Client: Dio
+- Persistence: Shared Preferences
+- Dependency Injection: Get It
+
+## State Management Explanation
+Used Provider to maintain a common state regarding data and flow of data liek :
+- show loading state -> fetch data remotely -> update loaded/error state
+- filter posts list locally on application side depending on title/body
+- add/remove posts to favourites
+  
+## Known Issues / Limitations
