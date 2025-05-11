@@ -9,9 +9,8 @@ API.
 - Detail view
 - Responsive UI
 ## Setup Instructions
-1. Clone the repo:
-git clone <your-repo-link>
-cd flutter_article_app
+1. Clone the repo and then :
+cd flutter_articles_listview
 2. Install dependencies:
 flutter pub get
 3. Run the app:
