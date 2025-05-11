@@ -30,3 +30,10 @@ Used Provider to maintain a common state regarding data and flow of data liek :
 - add/remove posts to favourites
   
 ## Known Issues / Limitations
+- currently post id are stored in shared preferences and then is matched with id of posts obtained by api, need to store whole json of post data lcoally
+- pagination required, currently loads 100 items at once
+- need to option of refreshing data in case of api failure
+- need to cache posts before calling api, and after api call update the cached data, and show only cached data
+- could add skeleton view while loading data to improve UI
+- need to check network connection while application is running, if offline, notify the user of same and load cached data
+  
